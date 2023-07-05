@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import HeartButton from "../HeartButton";
 import Button from "../Button";
-import { Listing } from "@/app/_types";
+import { Listing } from "@/app/types";
 
 interface ListingCardProps {
   data: Listing;
