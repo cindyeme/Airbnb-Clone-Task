@@ -7,7 +7,6 @@ import useTab from "./hooks/useTab";
 
 export default function Home() {
   const { listingsToDisplay, activeCategory, handleTabChange } = useTab();
-  console.log({ listingsToDisplay, activeCategory }, "<<");
   return (
     <main>
       <div className="fixed top-[5rem] w-full bg-white z-10 border-t-[1px]">

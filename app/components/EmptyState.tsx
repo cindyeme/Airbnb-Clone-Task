@@ -13,7 +13,7 @@ interface EmptyStateProps {
 
 const EmptyState: React.FC<EmptyStateProps> = ({
   title = "No matches found",
-  subtitle = "Try changing tab",
+  subtitle = "Try another tab",
   showButton,
 }) => {
   const router = useRouter();

@@ -16,6 +16,7 @@ const Footer = () => {
         py-3 
         fixed
         bottom-0
+        z-20
       "
     >
       <Container>

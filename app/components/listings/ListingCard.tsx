@@ -1,11 +1,15 @@
 "use client";
 
 import Image from "next/image";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 import FavoriteButton from "../FavoriteButton";
 import Button from "../Button";
 import { Listing } from "@/app/types";
 import { AiFillStar } from "react-icons/ai";
+import { CSSProperties } from "react";
 
 interface ListingCardProps {
   data: Listing;
@@ -30,25 +34,161 @@ const ListingCard: React.FC<ListingCardProps> = ({
             aspect-square 
             w-full 
             relative 
-            overflow-hidden 
             rounded-xl
+            xs:mb-1
             mb-2
+            xl:mb-0
           "
         >
-          <Image
-            fill
-            className="
+          <Swiper
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            style={
+              {
+                "--swiper-pagination-color": "#FFFFFF",
+                "--swiper-pagination-bullet-inactive-color": "#DDDDDD",
+                "--swiper-pagination-bullet-inactive-opacity": "0.5",
+                "--swiper-pagination-bullet-size": "6px",
+                "--swiper-pagination-bullet-horizontal-gap": "4px",
+              } as CSSProperties
+            }
+          >
+            <SwiperSlide>
+              <div className="w-full h-[350px] xs:h-[250px] md:h-[270px] xl:h-[284px] rounded-xl relative">
+                <Image
+                  fill
+                  className="
               object-cover 
               w-full 
               h-full 
-              group-hover:scale-110 
-              transition
+              overflow-hidden
+              transition rounded-xl
             "
-            src={data.homeMainPic || "https://placehold.co/600x400/000000/FFF"}
-            sizes="100vw"
-            loading="lazy"
-            alt={data.name}
-          />
+                  src={
+                    data.homeMainPic ||
+                    "https://placehold.co/600x400/000000/FFF"
+                  }
+                  sizes="100vw"
+                  loading="lazy"
+                  alt={data.name}
+                />
+                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-[350px] xs:h-[250px] md:h-[270px] xl:h-[284px] rounded-xl relative">
+                <Image
+                  fill
+                  className="
+              object-cover 
+              w-full 
+              h-full 
+              overflow-hidden
+              transition rounded-xl
+            "
+                  src={
+                    data.carouselPic1 ||
+                    "https://placehold.co/600x400/000000/FFF"
+                  }
+                  sizes="100vw"
+                  loading="lazy"
+                  alt={data.name}
+                />
+                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-[350px] xs:h-[250px] md:h-[270px] xl:h-[284px] rounded-xl relative">
+                <Image
+                  fill
+                 className="
+              object-cover 
+              w-full 
+              h-full 
+              overflow-hidden
+              transition rounded-xl
+            "
+                  src={
+                    data.carouselPic2 ||
+                    "https://placehold.co/600x400/000000/FFF"
+                  }
+                  sizes="100vw"
+                  loading="lazy"
+                  alt={data.name}
+                />
+                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-[350px] xs:h-[250px] md:h-[270px] xl:h-[284px] rounded-xl relative">
+                <Image
+                  fill
+                 className="
+              object-cover 
+              w-full 
+              h-full 
+              overflow-hidden
+              transition rounded-xl
+            "
+                  src={
+                    data.carouselPic3 ||
+                    "https://placehold.co/600x400/000000/FFF"
+                  }
+                  sizes="100vw"
+                  loading="lazy"
+                  alt={data.name}
+                />
+                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-[350px] xs:h-[250px] md:h-[270px] xl:h-[284px] rounded-xl relative">
+                <Image
+                  fill
+                 className="
+              object-cover 
+              w-full 
+              h-full 
+              overflow-hidden
+              transition rounded-xl
+            "
+                  src={
+                    data.carouselPic4 ||
+                    "https://placehold.co/600x400/000000/FFF"
+                  }
+                  sizes="100vw"
+                  loading="lazy"
+                  alt={data.name}
+                />
+                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-[350px] xs:h-[250px] md:h-[270px] xl:h-[284px] rounded-xl relative">
+                <Image
+                  fill
+                 className="
+              object-cover 
+              w-full 
+              h-full 
+              overflow-hidden
+              transition rounded-xl
+            "
+                  src={
+                    data.carouselPic5 ||
+                    "https://placehold.co/600x400/000000/FFF"
+                  }
+                  sizes="100vw"
+                  loading="lazy"
+                  alt={data.name}
+                />
+                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+
           <div
             className="
             absolute
