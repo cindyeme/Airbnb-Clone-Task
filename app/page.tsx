@@ -9,7 +9,7 @@ export default function Home() {
   const { listingsToDisplay, activeCategory, handleTabChange } = useTab();
   return (
     <main>
-      <div className="fixed top-[5rem] w-full bg-white z-10 border-t-[1px]">
+      <div className="fixed top-[5rem] w-full bg-white z-20 border-t-[5px]">
         <Categories active={activeCategory} onChange={handleTabChange} />
       </div>
       <section className="pb-20 pt-28">

@@ -31,7 +31,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
       <div className="flex flex-col w-full">
         <div
           className="
-            aspect-square 
+            aspect-square
             w-full 
             relative 
             rounded-xl
@@ -194,6 +194,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
             absolute
             top-3
             right-3
+            z-10
           "
           >
             <FavoriteButton />

@@ -86,6 +86,7 @@ const UserMenu = () => {
             overflow-hidden 
             right-0 
             top-12 
+            z-50
             text-sm
           "
         >
