@@ -1,7 +1,11 @@
 # Airbnb-Clone-Task
 Cloned Airbnb landing page
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Live Preview: [cynthia-airbnb-task](https://cynthia-airbnb-task.netlify.app)
+
+
+## Screenshots
+![Landing page](./screenshots/cynthia-airbnb.png)
 
 ## Getting Started
 
