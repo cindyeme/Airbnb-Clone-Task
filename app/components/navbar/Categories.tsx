@@ -20,16 +20,17 @@ import { LiaBedSolid } from 'react-icons/lia';
 
 import CategoryBox from "../CategoryBox";
 import Container from '../Container';
+import useTab from '@/app/hooks/useTab';
 
 
 export const categories = [
   {
-    label: "Rooms",
+    label: "rooms",
     icon: LiaBedSolid,
     description: "This property is all rooms!",
   },
   {
-    label: "Beachfront",
+    label: "beachfront",
     icon: TbBeach,
     description: "This property is close to the beach!",
   },
@@ -111,6 +112,8 @@ const Categories = () => {
   const category = params?.get('category');
   const pathname = usePathname();
   const isMainPage = pathname === '/';
+  const { activeCategory, handleDisplayCategoryListings } = useTab();
+
 
   if (!isMainPage) {
     return null;
@@ -129,11 +132,12 @@ const Categories = () => {
         "
       >
         {categories.map((item) => (
-          <CategoryBox 
+          <CategoryBox
             key={item.label}
             label={item.label}
             icon={item.icon}
-            selected={category === item.label}
+            selected={activeCategory === item.label}
+            onClick={handleDisplayCategoryListings.bind(null, item.label)}
           />
         ))}
       </div>

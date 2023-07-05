@@ -1,21 +1,23 @@
-'use client';
+"use client";
 
 import { IconType } from "react-icons";
 
 interface CategoryBoxProps {
-  icon: IconType,
+  icon: IconType;
   label: string;
   selected?: boolean;
+  onClick: () => void;
 }
 
 const CategoryBox: React.FC<CategoryBoxProps> = ({
   icon: Icon,
   label,
   selected,
+  onClick,
 }) => {
-
   return (
     <div
+      onClick={onClick}
       className={`
         flex 
         flex-col 
@@ -34,9 +36,9 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
       `}
     >
       <Icon size={26} />
-      <div className="font-medium text-xs">{label}</div>
+      <div className="font-medium text-xs capitalize text-center">{label}</div>
     </div>
   );
-}
- 
+};
+
 export default CategoryBox;

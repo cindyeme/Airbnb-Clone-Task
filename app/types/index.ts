@@ -1,4 +1,4 @@
-export interface Listing {
+export type Listing =  {
   id: string;
   homeMainPic: string;
   name: string;

@@ -1,8 +1,11 @@
+'use client';
+
 import Container from "./components/Container";
-import { listings } from "./store/listings";
 import ListingCard from "./components/listings/ListingCard";
+import useTab from "./hooks/useTab";
 
 export default function Home() {
+  const { listingsToDisplay }= useTab();
   return (
     <main>
       <Container>
@@ -19,7 +22,7 @@ export default function Home() {
             gap-8
           "
         >
-          {listings.map((listing: any) => (
+          {listingsToDisplay.map((listing: any) => (
             <ListingCard currentUser={null} key={listing.id} data={listing} />
           ))}
         </div>

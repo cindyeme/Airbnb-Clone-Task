@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import RouterMounting from "./components/RouterMounting";
 import Navbar from "./components/navbar/Navbar";
 import "./globals.css";
 import { Nunito } from "next/font/google";
@@ -9,7 +10,7 @@ const font = Nunito({
 
 export const metadata = {
   title: "Airbnb",
-  description: "Airbnb Clone",
+  description: "Cynthia's Airbnb Clone",
 };
 
 export default function RootLayout({
@@ -18,11 +19,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body className={font.className}>
-        <Navbar />
-        <div className="pb-20 pt-28">{children}</div>
-        <Footer />
+        <RouterMounting>
+          <Navbar />
+          <div className="pb-20 pt-28">{children}</div>
+          <Footer />
+        </RouterMounting>
       </body>
     </html>
   );

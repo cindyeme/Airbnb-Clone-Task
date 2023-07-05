@@ -5,6 +5,7 @@ import Image from "next/image";
 import HeartButton from "../HeartButton";
 import Button from "../Button";
 import { Listing } from "@/app/types";
+import { AiFillStar } from "react-icons/ai";
 
 interface ListingCardProps {
   data: Listing;
@@ -23,7 +24,6 @@ const ListingCard: React.FC<ListingCardProps> = ({
   actionLabel,
   currentUser,
 }) => {
-
   return (
     <div className="col-span-1 cursor-pointer group">
       <div className="flex flex-col w-full">
@@ -41,13 +41,13 @@ const ListingCard: React.FC<ListingCardProps> = ({
             fill
             className="
               object-cover 
-              h-full 
-              w-full 
               group-hover:scale-110 
               transition
             "
             src={data.homeMainPic || "https://placehold.co/600x400/000000/FFF"}
-            alt="Listing"
+            sizes="100vw"
+            loading="lazy"
+            alt={data.name}
           />
           <div
             className="
@@ -59,9 +59,16 @@ const ListingCard: React.FC<ListingCardProps> = ({
             <HeartButton listingId={data.id} currentUser={currentUser} />
           </div>
         </div>
-        <div className="font-semibold text-md">
-          {'Africa'}, {'Nigeria'}
+        <div className="flex items-center justify-between">
+          <div className="font-semibold text-md">
+            {"Africa"}, {"Nigeria"}
+          </div>
+          <div className="flex gap-1 items-center text-xs">
+            <AiFillStar size={10} />
+            <span>{data.stars}</span>
+          </div>
         </div>
+
         <div className="font-light text-neutral-500 capitalize">
           {data.name}
         </div>

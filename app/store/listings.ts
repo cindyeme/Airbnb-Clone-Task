@@ -1,12 +1,12 @@
 export const listings = [
-  // tab 1 i.e tropical
+  // tab 1 i.e rooms
   {
     id: "1",
     homeMainPic:
       "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720",
     name: "Abiansemal",
     price: 500,
-    type: "tropical",
+    type: "rooms",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/f4f7b242-db33-46fc-9080-c3d6a6fd55ec.jpeg?im_w=720",
@@ -28,7 +28,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0b25f6b3-f215-4938-ac81-581eb3929047.jpg?im_w=720",
     name: "Balian Beach",
     price: 400,
-    type: "tropical",
+    type: "rooms",
     stars: "4.84",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/7cc3c855-f90e-4d0f-9b13-3b5c2a3c4bad.jpg?im_w=720",
@@ -50,7 +50,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/bb35bfcf-f276-4e00-a0d1-73b319b2a9cd.jpeg?im_w=720",
     name: "Ubud Mansion",
     price: 200,
-    type: "tropical",
+    type: "rooms",
     stars: "4.64",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/1854bf1b-dc40-49ed-9c2e-d378663a7a02.jpeg?im_w=720",
@@ -72,7 +72,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-5904771/original/ab9a30d4-a6cf-4b3a-8416-cf7314ed5432.jpeg?im_w=720",
     name: "Selat Mansion",
     price: 2000,
-    type: "tropical",
+    type: "rooms",
     stars: "4.94",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/f2a6d022-23fc-4701-b703-806870cd9ed7.jpg?im_w=720",
@@ -94,7 +94,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4f70b681-a792-4530-8c52-f2a8d262942d.jpg?im_w=720",
     name: "Selat Mansion",
     price: 2000,
-    type: "tropical",
+    type: "rooms",
     stars: "4.94",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/e15ee353-0861-44ed-868a-56091755e513.jpg?im_w=720",
@@ -116,7 +116,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46761225/original/11058c0d-fac8-4035-8f16-8b3abe7441cd.jpeg?im_w=720",
     name: "Kekamatan Ubud",
     price: 5000,
-    type: "tropical",
+    type: "rooms",
     stars: "4.54",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46761225/original/08ca9cc1-6c85-4663-9faa-114e1c00956e.jpeg?im_w=720",
@@ -138,7 +138,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/ab61d106-3c6e-4f4f-a9d6-3f16cfa3eaeb.jpg?im_w=720",
     name: "Banjar Kutukh Kaja",
     price: 500,
-    type: "tropical",
+    type: "rooms",
     stars: "4.84",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/ddfe37fc-ffd9-463e-a662-6239b251384b.jpg?im_w=720",
@@ -161,7 +161,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4a5c629b-9c92-450e-8d8f-995875798838.jpg?im_w=720",
     name: "Tampakasirirng",
     price: 9000,
-    type: "tropical",
+    type: "rooms",
     stars: "4.97",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/08a9afde-e2f2-48aa-b8b0-a7e747318943.jpg?im_w=720",
@@ -184,7 +184,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4ca0a7e5-9777-4ba6-9fce-8a0a94bbe555.jpg?im_w=720",
     name: "Uluwatu",
     price: 4500,
-    type: "tropical",
+    type: "rooms",
     stars: "4.75",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/ca3de64a-addf-40dc-a368-c272ddd9b2bc.jpg?im_w=720",
@@ -207,7 +207,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-44970955/original/801785b8-64d5-45d3-a25d-a5f62cdf2ed2.jpeg?im_w=720",
     name: "Kecamatana",
     price: 8000,
-    type: "tropical",
+    type: "rooms",
     stars: "4.45",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-44970955/original/fc040aa4-15d5-48c7-8d6e-046d995cf9e8.jpeg?im_w=720",
@@ -229,7 +229,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/6d90bd2d-1bae-47cc-b831-b7561d766048.jpg?im_w=720",
     name: "Seirit",
     price: 5000,
-    type: "tropical",
+    type: "rooms",
     stars: "4.72",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/26bfb0b8-27a2-45d2-8021-9ffc2d28d6c1.jpg?im_w=720",
@@ -251,7 +251,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/81aaba9d-ec2b-4f83-ab67-1f4c6dbccc17.jpg?im_w=720",
     name: "Kambalo",
     price: 6500,
-    type: "tropical",
+    type: "rooms",
     stars: "4.98",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/34bf6c0e-655e-4ab7-b569-d7e234a06c17.jpg?im_w=720",
@@ -273,7 +273,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/881f0d54-6449-402a-8ffe-499664d302bf.jpg?im_w=720",
     name: "Mengwi",
     price: 1500,
-    type: "tropical",
+    type: "rooms",
     stars: "4.58",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/fa9aa1b5-3e63-4e1c-863d-5e63702794da.jpg?im_w=720",
@@ -295,7 +295,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/monet/Luxury-20470768/original/cc213ade-c939-4e2f-b0af-0149bda85030?im_w=720",
     name: "Samaui",
     price: 1500,
-    type: "tropical",
+    type: "rooms",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/6d3bd191-b013-4cf9-b297-5f3c253acadf.jpg?im_w=720",
@@ -317,7 +317,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/06d92669-7b0e-4e09-a001-00b5f956d619.jpg?im_w=720",
     name: "Kubata",
     price: 8500,
-    type: "tropical",
+    type: "rooms",
     stars: "4.62",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-17700584/original/2f78f22e-1fe9-4ec6-b5fc-31551dc33b2d.jpeg?im_w=720",
@@ -1005,7 +1005,7 @@ export const listings = [
     pets: false,
   },
 
-  // tab 4 beaches
+  // tab 4 beachfront
 
   {
     id: "46",
@@ -1013,7 +1013,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/c7fdf7b1-4624-42e0-ab9c-5c002bc04c02.jpg?im_w=720",
     name: "Caluengete",
     price: 8200,
-    type: "beaches",
+    type: "beachfront",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-46228387/original/e3304144-a0bd-4c1c-a1f0-37b18261b35b.jpeg?im_w=720",
@@ -1035,7 +1035,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/58ea01f6-762a-4730-9106-92b463d2b255.jpg?im_w=720",
     name: "Aqua",
     price: 7850,
-    type: "beaches",
+    type: "beachfront",
     stars: "4.58",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/9932a298-6b1c-4c96-b2c8-df85f319c44a.jpg?im_w=720",
@@ -1057,7 +1057,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-16258047/original/ce12769c-4d54-4ac3-8db0-f7530aa88144.jpeg?im_w=720",
     name: "Vagator",
     price: 1500,
-    type: "beaches",
+    type: "beachfront",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-16258047/original/d7768904-e0e1-4867-9022-7e80c192e74d.jpeg?im_w=720",
@@ -1080,7 +1080,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53693912/original/347ab2a7-537a-4c1c-9d22-ae7af0319c17.jpeg?im_w=720",
     name: "Cancona",
     price: 2500,
-    type: "beaches",
+    type: "beachfront",
     stars: "4.98",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-53693912/original/810a217b-b081-48a0-974d-db0ee77e95c5.jpeg?im_w=720",
@@ -1103,7 +1103,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/5314255c-ea99-4b29-9a5c-1ae56f3d9f37.jpg?im_w=720",
     name: "Panjali",
     price: 8850,
-    type: "beaches",
+    type: "beachfront",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/d42c3708-0767-45c2-afec-48f58ae5f37b.jpg?im_w=720",
@@ -1126,7 +1126,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0df3b66e-b1e2-4bca-9c2b-300c28926569.jpg?im_w=720",
     name: "Coladre",
     price: 7895,
-    type: "beaches",
+    type: "beachfront",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/23052913-099c-4a3a-8f69-dddc2734782c.jpg?im_w=720",
@@ -1148,7 +1148,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-45731930/original/bffdd0b5-271e-4836-8607-57efad2e70bb.jpeg?im_w=720",
     name: "Mandela",
     price: 1889,
-    type: "beaches",
+    type: "beachfront",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/e29175b2-3cd2-4f9a-bb9b-7630317ba2bc.jpg?im_w=720",
@@ -1170,7 +1170,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/79ee6640-f7c6-4775-b18f-eea593565e9d.jpg?im_w=720",
     name: "Orya",
     price: 5680,
-    type: "beaches",
+    type: "beachfront",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/c92ed58a-2958-4f1b-b6bc-05e7cac92b04.jpg?im_w=720",
@@ -1192,7 +1192,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0f8822af-f738-431b-a30f-ccc8ff7f31ee.jpg?im_w=720",
     name: "Equpd",
     price: 7800,
-    type: "beaches",
+    type: "beachfront",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/0750bacd-1294-4707-8ef5-25f21e5f3759.jpg?im_w=720",
@@ -1214,7 +1214,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/4ab77d63-7116-41c8-957b-921209a1c0b9.jpeg?im_w=720",
     name: "Nilofouer",
     price: 9000,
-    type: "beaches",
+    type: "beachfront",
     stars: "4.80",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/f532f561-f0f6-4454-a0d9-230be7a66462.jpeg?im_w=720",
@@ -1236,7 +1236,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/0e7d0e69-2edf-427b-90ae-b8245efba32c.jpeg?im_w=720",
     name: "Ora",
     price: 1450,
-    type: "beaches",
+    type: "beachfront",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/72c66a59-a92f-4579-a1c1-40bf679ce091.jpeg?im_w=720",
@@ -1258,7 +1258,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/29a4d8ad-4ea1-4f6c-bd78-920bd3351e8a.jpg?im_w=720",
     name: "Quazi",
     price: 7456,
-    type: "beaches",
+    type: "beachfront",
     stars: "4.48",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/276901a4-9087-44d3-94c0-d2065d2a2f8d.jpg?im_w=720",

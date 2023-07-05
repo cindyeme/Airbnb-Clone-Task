@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { BiGlobe } from "react-icons/bi";
+import { IoSearch } from "react-icons/io5";
+import { PiHeartBold, PiUserCircle } from "react-icons/pi";
 import Container from "./Container";
 
 const Footer = () => {
@@ -20,33 +22,94 @@ const Footer = () => {
         <div
           className="
           flex 
-          flex-row 
+          flex-col
+          gap-2
+          md:gap-0
+          md:flex-row 
           items-center 
-          justify-between
+          justify-center
+          md:justify-between
         "
         >
+          <div className="flex gap-3 md:hidden">
+            <div
+              className={`
+        flex 
+        flex-col 
+        items-center 
+        justify-center 
+        gap-1
+        p-3
+        hover:text-neutral-800
+        transition
+        cursor-pointer text-neutral-500
+      `}
+            >
+              <IoSearch size={26} />
+              <div className="font-medium text-xs capitalize text-center">
+                {"Explore"}
+              </div>
+            </div>
+            <div
+              className={`
+        flex 
+        flex-col 
+        items-center 
+        justify-center 
+        gap-1
+        p-3
+        hover:text-neutral-800
+        transition
+        cursor-pointer text-neutral-500
+      `}
+            >
+              <PiHeartBold size={26} />
+              <div className="font-medium text-xs capitalize text-center">
+                {"Wishlists"}
+              </div>
+            </div>
+            <div
+              className={`
+        flex 
+        flex-col 
+        items-center 
+        justify-center 
+        gap-1
+        p-3
+        hover:text-neutral-800
+        transition
+        cursor-pointer text-neutral-500
+      `}
+            >
+              <PiUserCircle size={26} />
+              <div className="font-medium text-xs capitalize text-center">
+                {"Log in"}
+              </div>
+            </div>
+          </div>
+
           <div
             className="
-            text-sm flex gap-2 text-neutral-600
+            text-sm md:flex md:gap-2 text-neutral-600 hidden
           "
           >
-            © {new Date().getFullYear()} Airbnb, Inc.·{" "}
+            <span>© {new Date().getFullYear()} Airbnb, Inc.</span>·
             <Link href={"#"} className="hover:underline">
               Terms
-            </Link>{" "}
-            ·{" "}
+            </Link>
+            ·
             <Link href={"#"} className="hover:underline">
               Sitemap
-            </Link>{" "}
-            ·{" "}
+            </Link>
+            ·
             <Link href={"#"} className="hover:underline">
               Privacy
             </Link>
-            ·{" "}
+            ·
             <Link href={"#"} className="hover:underline">
               Your Privacy Choices
-            </Link>{" "}
-            ·{" "}
+            </Link>
+            ·
             <Link href={"#"} className="hover:underline">
               Destinations
             </Link>
@@ -54,7 +117,7 @@ const Footer = () => {
           <div
             className="
             text-sm 
-            font-semibold flex gap-4
+            font-semibold md:flex gap-4 hidden
           "
           >
             <span className="flex items-center gap-1">
