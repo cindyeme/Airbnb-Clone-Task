@@ -1,12 +1,12 @@
 export const listings = [
-  // tab 1 i.e rooms
+  // tab 1 i.e new
   {
     id: "1",
     homeMainPic:
       "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720",
     name: "Abiansemal",
     price: 500,
-    type: "rooms",
+    type: "new",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-34113796/original/f4f7b242-db33-46fc-9080-c3d6a6fd55ec.jpeg?im_w=720",
@@ -28,7 +28,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0b25f6b3-f215-4938-ac81-581eb3929047.jpg?im_w=720",
     name: "Balian Beach",
     price: 400,
-    type: "rooms",
+    type: "new",
     stars: "4.84",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/7cc3c855-f90e-4d0f-9b13-3b5c2a3c4bad.jpg?im_w=720",
@@ -50,7 +50,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/bb35bfcf-f276-4e00-a0d1-73b319b2a9cd.jpeg?im_w=720",
     name: "Ubud Mansion",
     price: 200,
-    type: "rooms",
+    type: "new",
     stars: "4.64",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-47721565/original/1854bf1b-dc40-49ed-9c2e-d378663a7a02.jpeg?im_w=720",
@@ -72,7 +72,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-5904771/original/ab9a30d4-a6cf-4b3a-8416-cf7314ed5432.jpeg?im_w=720",
     name: "Selat Mansion",
     price: 2000,
-    type: "rooms",
+    type: "new",
     stars: "4.94",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/f2a6d022-23fc-4701-b703-806870cd9ed7.jpg?im_w=720",
@@ -94,7 +94,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4f70b681-a792-4530-8c52-f2a8d262942d.jpg?im_w=720",
     name: "Selat Mansion",
     price: 2000,
-    type: "rooms",
+    type: "new",
     stars: "4.94",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/e15ee353-0861-44ed-868a-56091755e513.jpg?im_w=720",
@@ -116,7 +116,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46761225/original/11058c0d-fac8-4035-8f16-8b3abe7441cd.jpeg?im_w=720",
     name: "Kekamatan Ubud",
     price: 5000,
-    type: "rooms",
+    type: "new",
     stars: "4.54",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46761225/original/08ca9cc1-6c85-4663-9faa-114e1c00956e.jpeg?im_w=720",
@@ -138,7 +138,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/ab61d106-3c6e-4f4f-a9d6-3f16cfa3eaeb.jpg?im_w=720",
     name: "Banjar Kutukh Kaja",
     price: 500,
-    type: "rooms",
+    type: "new",
     stars: "4.84",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/ddfe37fc-ffd9-463e-a662-6239b251384b.jpg?im_w=720",
@@ -152,7 +152,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/e120ceab-9202-41c2-ac07-58ea082eef8b.jpg?im_w=720",
     location: "london",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -161,7 +161,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4a5c629b-9c92-450e-8d8f-995875798838.jpg?im_w=720",
     name: "Tampakasirirng",
     price: 9000,
-    type: "rooms",
+    type: "new",
     stars: "4.97",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/08a9afde-e2f2-48aa-b8b0-a7e747318943.jpg?im_w=720",
@@ -175,7 +175,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/42c0bbcb-29e5-4064-adad-6382393dce0f.jpg?im_w=720",
     location: "london",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -184,7 +184,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4ca0a7e5-9777-4ba6-9fce-8a0a94bbe555.jpg?im_w=720",
     name: "Uluwatu",
     price: 4500,
-    type: "rooms",
+    type: "new",
     stars: "4.75",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/ca3de64a-addf-40dc-a368-c272ddd9b2bc.jpg?im_w=720",
@@ -198,7 +198,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/208e78d4-9e16-4916-aff5-4392e8185607.jpg?im_w=720",
     location: "london",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -207,7 +207,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-44970955/original/801785b8-64d5-45d3-a25d-a5f62cdf2ed2.jpeg?im_w=720",
     name: "Kecamatana",
     price: 8000,
-    type: "rooms",
+    type: "new",
     stars: "4.45",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-44970955/original/fc040aa4-15d5-48c7-8d6e-046d995cf9e8.jpeg?im_w=720",
@@ -229,7 +229,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/6d90bd2d-1bae-47cc-b831-b7561d766048.jpg?im_w=720",
     name: "Seirit",
     price: 5000,
-    type: "rooms",
+    type: "new",
     stars: "4.72",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/26bfb0b8-27a2-45d2-8021-9ffc2d28d6c1.jpg?im_w=720",
@@ -251,7 +251,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/81aaba9d-ec2b-4f83-ab67-1f4c6dbccc17.jpg?im_w=720",
     name: "Kambalo",
     price: 6500,
-    type: "rooms",
+    type: "new",
     stars: "4.98",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/34bf6c0e-655e-4ab7-b569-d7e234a06c17.jpg?im_w=720",
@@ -273,7 +273,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/881f0d54-6449-402a-8ffe-499664d302bf.jpg?im_w=720",
     name: "Mengwi",
     price: 1500,
-    type: "rooms",
+    type: "new",
     stars: "4.58",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/fa9aa1b5-3e63-4e1c-863d-5e63702794da.jpg?im_w=720",
@@ -295,7 +295,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/monet/Luxury-20470768/original/cc213ade-c939-4e2f-b0af-0149bda85030?im_w=720",
     name: "Samaui",
     price: 1500,
-    type: "rooms",
+    type: "new",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/6d3bd191-b013-4cf9-b297-5f3c253acadf.jpg?im_w=720",
@@ -317,7 +317,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/06d92669-7b0e-4e09-a001-00b5f956d619.jpg?im_w=720",
     name: "Kubata",
     price: 8500,
-    type: "rooms",
+    type: "new",
     stars: "4.62",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-17700584/original/2f78f22e-1fe9-4ec6-b5fc-31551dc33b2d.jpeg?im_w=720",
@@ -377,7 +377,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/fb38e48e-b2da-4694-a553-2ba51bcf8f69.jpg?im_w=720",
     location: "russia",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -400,7 +400,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/5b88976e-873b-4126-9bc2-7197434d40cb.jpg?im_w=720",
     location: "russia",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -423,7 +423,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/bd68eb62-b199-4f18-a9e4-5f7ca590d168.jpg?im_w=720",
     location: "russia",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -622,7 +622,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/69d1e422-9e7c-4b3f-8772-7e50df9e16c8.jpg?im_w=720",
     location: "europe",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -645,7 +645,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/69d1e422-9e7c-4b3f-8772-7e50df9e16c8.jpg?im_w=720",
     location: "europe",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -668,7 +668,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/a82a6ebf-9d6b-4d8d-9a4a-2dd9a72a18df.jpg?im_w=720",
     location: "europe",
     pets: false,
-    couple: true,
+    countryside: true,
   },
   // tab3 i.e amazing pools
 
@@ -846,7 +846,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53962843/original/7b5cca14-b624-4314-a7cc-f59d92839317.jpeg?im_w=720",
     location: "newyork",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -869,7 +869,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-22540306/original/51831d57-edd4-4c50-b804-6468fb766bb3.jpeg?im_w=720",
     location: "newyork",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -892,7 +892,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-39934917/original/bf8a0b70-fa2b-4ebd-8502-43a3658bae84.jpeg?im_w=720",
     location: "newyork",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1071,7 +1071,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/26386ced-5f26-4cc8-a0d5-cead091c1422.jpg?im_w=720",
     location: "ukraine",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1094,7 +1094,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53693912/original/347ab2a7-537a-4c1c-9d22-ae7af0319c17.jpeg?im_w=720",
     location: "ukraine",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1117,7 +1117,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4062779b-8434-4e07-84f7-32e5d4c37cdb.jpg?im_w=720",
     location: "ukraine",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1274,7 +1274,7 @@ export const listings = [
     pets: false,
   },
 
-  // tab 5 tiny homes
+  // tab 5 modern
 
   {
     id: "58",
@@ -1282,7 +1282,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/ac088d58-51ae-49a8-b126-156f87a1c4a6.jpg?im_w=720",
     name: "Tejuka",
     price: 4456,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.85",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/de11ba00-b8e7-4bef-bf6f-334eba32a477.jpg?im_w=720",
@@ -1296,7 +1296,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/d3e935d8-c4b0-4678-bc5e-bc4dd1a3f74a.jpg?im_w=720",
     location: "india",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1305,7 +1305,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-47181423/original/39c9d4e7-78d0-4807-9f0d-3029d987d02a.jpeg?im_w=720",
     name: "Pemenang",
     price: 4582,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.65",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-47181423/original/1f17c370-5c69-4a23-bdd4-b5adfaf6b33d.jpeg?im_w=720",
@@ -1319,7 +1319,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/931043e6-10cb-4146-9569-2c814753ce2a.jpg?im_w=720",
     location: "india",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1328,7 +1328,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/ff8035de-1053-44fd-ad94-4b529120c4e4.jpg?im_w=720",
     name: "Tissulman",
     price: 7895,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.72",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/2cfebbdd-02dc-41fd-ac78-fafe4b7ac51e.jpg?im_w=720",
@@ -1342,7 +1342,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-47181423/original/bd57640b-516c-45fc-b21f-005caa0aba7e.jpeg?im_w=720",
     location: "india",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1351,7 +1351,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/05722dfc-522c-4362-9b3e-fcab749c7af6.jpg?im_w=720",
     name: "Varkala",
     price: 4580,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.43",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/d4edf966-9428-4344-be44-73bd1cb43e3b.jpg?im_w=720",
@@ -1373,7 +1373,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/b042a337-852f-4586-ac43-08ee8d61f4ab.jpg?im_w=720",
     name: "Meshju",
     price: 3698,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.77",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/25717ad9-1a05-4e56-8f94-d873fdf8f5e4.jpg?im_w=720",
@@ -1395,7 +1395,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/8ddc1468-d6e0-4f37-85dd-1a98117961e5.jpg?im_w=720",
     name: "Mangale",
     price: 1304,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.86",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/be5d550b-ac7d-45f1-8687-00353e811e1a.jpg?im_w=720",
@@ -1417,7 +1417,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/7a003d5d-fc09-415d-a38e-a2f259b90f7c.jpg?im_w=720",
     name: "Bauio",
     price: 4856,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.15",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/58c708ef-145e-4ddb-b47a-ac7a51e580e6.jpg?im_w=720",
@@ -1439,7 +1439,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/70cbab61-4419-47f2-92ce-2a71105f4e9b.jpg?im_w=720",
     name: "Batangas",
     price: 1256,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.55",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-33087863/original/4c7af452-83a8-4c95-bbce-895e97c4b46e.jpeg?im_w=720",
@@ -1461,7 +1461,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-33978312/original/9b13a712-0cbc-4987-a0a9-107fad357674.jpeg?im_w=720",
     name: "Amder",
     price: 8560,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.79",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-33978312/original/90096f57-4902-4787-b2e5-787732a23acd.jpeg?im_w=720",
@@ -1483,7 +1483,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/77c1f77d-fb4a-425d-8ef1-33d4bdcba8d1.jpg?im_w=720",
     name: "Elnido",
     price: 5956,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.58",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/07531022-3c48-4438-88ee-c642b2557dc2.jpg?im_w=720",
@@ -1505,7 +1505,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/bf039192-cc54-43bf-bab3-cb7b6367207f.jpg?im_w=720",
     name: "TamboKo",
     price: 7893,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.98",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/e8d02755-8c8a-4f1f-bc12-227156c42303.jpg?im_w=720",
@@ -1519,7 +1519,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/e60ba8d2-922a-4528-9c5d-b7e418bc2795.jpg?im_w=720",
     location: "france",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1528,7 +1528,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-7310810/original/d66533ca-b438-4f97-9c31-48ddc9c28b10.jpeg?im_w=720",
     name: "Trexlan",
     price: 9562,
-    type: "tinyhomes",
+    type: "modern",
     stars: "4.67",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-7310810/original/a9bcd542-ce35-4ef5-ac6f-27708834242f.jpeg?im_w=720",
@@ -1542,10 +1542,10 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-7310810/original/8833312a-cf55-4abb-a2b0-1c97d2a81b8c.jpeg?im_w=720",
     location: "france",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
-  // tab 6 i.e design
+  // tab 6 i.e Amazing Pools
 
   {
     id: "70",
@@ -1553,7 +1553,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/321a1e3a-2827-46f8-8966-9910c9678ca8.jpg?im_w=720",
     name: "Colava",
     price: 5725,
-    type: "design",
+    type: "amazing pools",
     stars: "4.96",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/5e51dcbb-6572-435b-aae0-a8a484748f21.jpg?im_w=720",
@@ -1567,7 +1567,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/ff3724e2-222b-4d01-b40d-8a95726ce01c.jpg?im_w=720",
     location: "france",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1576,7 +1576,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-52800305/original/3ae97076-6969-49da-8a20-f461b4b86903.jpeg?im_w=720",
     name: "Candolim",
     price: 7582,
-    type: "design",
+    type: "amazing pools",
     stars: "4.94",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-52800305/original/ef2d3504-93df-49ed-8477-5b9a2b080037.jpeg?im_w=720",
@@ -1598,7 +1598,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/981afb1a-07d1-42c8-9c65-1ca842f6de6a.jpg?im_w=720",
     name: "Matata",
     price: 8452,
-    type: "design",
+    type: "amazing pools",
     stars: "4.84",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/ad8bb103-8eb9-4403-9381-501a9e8e3053.jpg?im_w=720",
@@ -1620,7 +1620,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0cc71977-6c16-4f16-9462-205b152b44f6.jpg?im_w=720",
     name: "Colva",
     price: 3500,
-    type: "design",
+    type: "amazing pools",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/ec6a643e-3f9c-4e2d-98a0-09b1f5f26f4b.jpg?im_w=720",
@@ -1642,7 +1642,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/8aec4c00-ae4b-4432-82e6-adcd7f462a74.jpeg?im_w=720",
     name: "Benaulia",
     price: 8750,
-    type: "design",
+    type: "amazing pools",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-54151380/original/d7e1f632-4882-4bee-aa94-c19fc9440a9f.jpeg?im_w=720",
@@ -1664,7 +1664,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/8fe3b3d4-b0bd-4aff-9836-0805244590e4.jpeg?im_w=720",
     name: "Calangute",
     price: 6300,
-    type: "design",
+    type: "amazing pools",
     stars: "3.8",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-545403517134333906/original/20d43aeb-b30c-4d9c-9c2c-d62ade05d117.jpeg?im_w=720",
@@ -1686,7 +1686,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/3d8b4db2-0bc3-4bf7-91d7-0d34dd2bb903.jpg?im_w=720",
     name: "Norgod",
     price: 8050,
-    type: "design",
+    type: "amazing pools",
     stars: "4.2",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/4c3ed092-cd1a-4661-ac41-f4bae8527044.jpg?im_w=720",
@@ -1708,7 +1708,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53962843/original/0baf5958-7293-48df-9c25-3c5d23c1f297.jpeg?im_w=720",
     name: "NeeurlPea",
     price: 4580,
-    type: "design",
+    type: "amazing pools",
     stars: "4.87",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-53962843/original/d953812b-fd01-4732-9dd4-84240eacbdac.jpeg?im_w=720",
@@ -1730,7 +1730,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-22540306/original/3d515645-215b-40bc-8edc-d086fdbd182d.jpeg?im_w=720",
     name: "Loutotlim",
     price: 7850,
-    type: "design",
+    type: "amazing pools",
     stars: "4.47",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-22540306/original/59f59a30-e692-47fa-9dc0-7bf8e100c18b.jpeg?im_w=720",
@@ -1744,7 +1744,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-22540306/original/51831d57-edd4-4c50-b804-6468fb766bb3.jpeg?im_w=720",
     location: "kyiv",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1753,7 +1753,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-39934917/original/227ad5c1-8855-4370-9f9a-97034281c3e2.jpeg?im_w=720",
     name: "Betatime",
     price: 7850,
-    type: "design",
+    type: "amazing pools",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-39934917/original/7090cc2a-27e8-45d7-a825-0b1854145e25.jpeg?im_w=720",
@@ -1767,7 +1767,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-39934917/original/bf8a0b70-fa2b-4ebd-8502-43a3658bae84.jpeg?im_w=720",
     location: "kyiv",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1776,7 +1776,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/5b4d3ab2-bae2-4c82-b05a-83467a5b076e.jpg?im_w=720",
     name: "Noshdan",
     price: 4782,
-    type: "design",
+    type: "amazing pools",
     stars: "4.56",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/33c63039-6e52-4bf9-873a-ec39061e2c88.jpg?im_w=720",
@@ -1790,7 +1790,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/c4731a81-c2b6-4646-85e2-12b8a001c79b.jpg?im_w=720",
     location: "kyiv",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1799,7 +1799,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/1e36056e-2f67-4ad9-aa39-0547b2cfaeff.jpg?im_w=720",
     name: "Sangchi",
     price: 5800,
-    type: "design",
+    type: "amazing pools",
     stars: "4.76",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/4af87cc3-3d31-41c3-9b5e-f436535bf4e7.jpg?im_w=720",
@@ -1821,7 +1821,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-671456595560845798/original/880f54ce-51c7-44ed-903f-d9b11f674707.jpeg?im_w=720",
     name: "Neurl",
     price: 7490,
-    type: "design",
+    type: "amazing pools",
     stars: "4.26",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/d8da6b20-941a-4214-af21-737cf29b308a.jpg?im_w=720",
@@ -1843,7 +1843,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/7e44319c-704f-4345-8bce-4601c893ed16.jpg?im_w=720",
     name: "Nilofer",
     price: 5060,
-    type: "design",
+    type: "amazing pools",
     stars: "4.86",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/09667e04-d6d4-455e-afe2-a7ba2427a683.jpg?im_w=720",
@@ -1865,7 +1865,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/a40a31ef-1a1a-4044-94bf-2d9a1c71b2b3.jpg?im_w=720",
     name: "Aura",
     price: 8200,
-    type: "design",
+    type: "amazing pools",
     stars: "4.86",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/14c70a65-fd0f-465b-b698-54787d7ea262.jpg?im_w=720",
@@ -1968,7 +1968,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-5904771/original/e8429c29-d29b-4333-ae9f-4163265429fc.jpeg?im_w=720",
     location: "usa us",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -1991,7 +1991,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0c37c239-fe53-4ae5-9e70-34d3988342da.jpg?im_w=720",
     location: "usa us",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2014,7 +2014,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/5564847a-c678-4e39-8de1-2f591d017657.jpg?im_w=720",
     location: "usa us",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2191,7 +2191,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/83eda27f-50be-4356-8d74-0c40ef73226a.jpg?im_w=720",
     location: "spain",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2214,10 +2214,10 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/83eda27f-50be-4356-8d74-0c40ef73226a.jpg?im_w=720",
     location: "spain",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
-  // Tab 8 i.e view
+  // Tab 8 i.e lake
 
   {
     id: "100",
@@ -2225,7 +2225,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/2d8ea58a-bb1c-4145-9f48-94fcbaafc8a6.jpg?im_w=720",
     name: "Badungr",
     price: 6650,
-    type: "view",
+    type: "lake",
     stars: "4.25",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/08b70c1e-c97d-480b-8798-dcc6e49b07be.jpg?im_w=720",
@@ -2239,7 +2239,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/7eeca0cf-90e1-468a-beba-a64251b2e109.jpg?im_w=720",
     location: "spain",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2248,7 +2248,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/e44d6ea0-d174-4024-9fac-c254c55b1221.jpg?im_w=720",
     name: "SagoFil",
     price: 4500,
-    type: "view",
+    type: "lake",
     stars: "4.85",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/4af87cc3-3d31-41c3-9b5e-f436535bf4e7.jpg?im_w=720",
@@ -2270,7 +2270,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/a98abbe7-615f-45a9-a614-37910e7e909e.jpg?im_w=720",
     name: "Cancona",
     price: 4800,
-    type: "view",
+    type: "lake",
     stars: "4.87",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/fe9e0540-4750-41e1-9135-729cb1c61340.jpg?im_w=720",
@@ -2292,7 +2292,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/957489e8-c915-4208-a99d-c75334d5d58e.jpg?im_w=720",
     name: "Loutulim",
     price: 8800,
-    type: "view",
+    type: "lake",
     stars: "4.91",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/6c4f0013-6650-4184-9b6d-083cc254d45f.jpg?im_w=720",
@@ -2314,7 +2314,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/6316e9f3-9f94-43b0-8d84-30e0a9516663.jpeg?im_w=720",
     name: "Panji",
     price: 6752,
-    type: "view",
+    type: "lake",
     stars: "4.85",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-49022230/original/f6a7ecab-e303-49cb-8e3d-46c5bed00001.jpeg?im_w=720",
@@ -2336,7 +2336,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/ca837f4e-fc63-4de8-8abd-d867f5045196.jpeg?im_w=720",
     name: "Colava",
     price: 9800,
-    type: "view",
+    type: "lake",
     stars: "4.8",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-50867469/original/c3d940b1-8aa2-423b-b38d-e6fdc94833c0.jpeg?im_w=720",
@@ -2358,7 +2358,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-45796358/original/aa1e124c-81b9-4d7b-9707-51fe7ce9658d.jpeg?im_w=720",
     name: "Varca",
     price: 8475,
-    type: "view",
+    type: "lake",
     stars: "4.93",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/27206bd1-e7c8-4e6c-a821-df71e5cc884a.jpg?im_w=720",
@@ -2380,7 +2380,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/c25c9546-5a2e-4092-bbae-d294836014e2.jpg?im_w=720",
     name: "Mandel",
     price: 5975,
-    type: "view",
+    type: "lake",
     stars: "4.93",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/5fd5a247-7ab4-4e71-abbb-fd1b331770d4.jpg?im_w=720",
@@ -2402,7 +2402,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/a93e9798-69cd-48d3-a7a0-1753e31bb60b.jpg?im_w=720",
     name: "Babek",
     price: 4975,
-    type: "view",
+    type: "lake",
     stars: "4.43",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/9851d648-50cd-4a01-84a5-c55a5b6f6c73.jpg?im_w=720",
@@ -2416,7 +2416,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/050244f0-23e1-47d8-8c30-1c1c4be9e030.jpg?im_w=720",
     location: "italy",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2425,7 +2425,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-548838707677454931/original/75594cf3-d551-485c-9a2d-2f735b9a75f4.jpeg?im_w=720",
     name: "Daramob",
     price: 7825,
-    type: "view",
+    type: "lake",
     stars: "4.37",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/01376579-dae6-4f03-a9f6-b7c7b91ca681.jpg?im_w=720",
@@ -2439,7 +2439,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/cd53984e-0366-497c-a9da-9363c95bdcd2.jpg?im_w=720",
     location: "italy",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2448,7 +2448,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/73b21cbb-5c7f-47ce-850b-bdb85e5d2133.jpg?im_w=720",
     name: "Colva",
     price: 4664,
-    type: "view",
+    type: "lake",
     stars: "4.57",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/38ee6fc8-bdd8-43e1-9b34-e3ef4edd68d4.jpg?im_w=720",
@@ -2462,7 +2462,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/cd53984e-0366-497c-a9da-9363c95bdcd2.jpg?im_w=720",
     location: "italy",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2471,7 +2471,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-622752020421080917/original/537432f3-ff14-403a-9088-2fa4521b59c8.jpeg?im_w=720",
     name: "Nigdmah",
     price: 6864,
-    type: "view",
+    type: "lake",
     stars: "4.87",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-622752020421080917/original/e348b1cc-1bed-4c0f-88f2-21c421d452f4.jpeg?im_w=720",
@@ -2493,7 +2493,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-622752020421080917/original/e348b1cc-1bed-4c0f-88f2-21c421d452f4.jpeg?im_w=720",
     name: "Nigdmah",
     price: 6864,
-    type: "view",
+    type: "lake",
     stars: "4.87",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-622752020421080917/original/537432f3-ff14-403a-9088-2fa4521b59c8.jpeg?im_w=720",
@@ -2515,7 +2515,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/deaf6622-8244-4059-a791-ae9256a58f1a.jpg?im_w=720",
     name: "Orlim",
     price: 4935,
-    type: "view",
+    type: "lake",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/5de25524-6815-4f97-81b0-6990531285ab.jpg?im_w=720",
@@ -2537,7 +2537,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53933565/original/26f963d2-1ca1-4b6e-89c8-229e6d960675.jpeg?im_w=720",
     name: "Utora",
     price: 8965,
-    type: "view",
+    type: "lake",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-53933565/original/b13f14f7-6fa2-4f9e-9b77-dfca3c673634.jpeg?im_w=720",
@@ -2559,7 +2559,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-52743271/original/58716c75-1031-401a-990f-ad644e054259.jpeg?im_w=720",
     name: "Habiora",
     price: 8965,
-    type: "view",
+    type: "lake",
     stars: "4.85",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-52743271/original/3f305981-7cdf-464d-9e3d-494fed3528d9.jpeg?im_w=720",
@@ -2575,7 +2575,7 @@ export const listings = [
     pets: false,
   },
 
-  // Tab 9 i.e COUPLE
+  // Tab 9 i.e Countryside
 
   {
     id: "115",
@@ -2583,7 +2583,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/c7fdf7b1-4624-42e0-ab9c-5c002bc04c02.jpg?im_w=720",
     name: "Caluengete",
     price: 3820,
-    type: "couple",
+    type: "countryside",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-46228387/original/e3304144-a0bd-4c1c-a1f0-37b18261b35b.jpeg?im_w=720",
@@ -2605,7 +2605,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/58ea01f6-762a-4730-9106-92b463d2b255.jpg?im_w=720",
     name: "Aqua",
     price: 7850,
-    type: "couple",
+    type: "countryside",
     stars: "4.58",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/9932a298-6b1c-4c96-b2c8-df85f319c44a.jpg?im_w=720",
@@ -2627,7 +2627,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-16258047/original/ce12769c-4d54-4ac3-8db0-f7530aa88144.jpeg?im_w=720",
     name: "Vagator",
     price: 1050,
-    type: "couple",
+    type: "countryside",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-16258047/original/d7768904-e0e1-4867-9022-7e80c192e74d.jpeg?im_w=720",
@@ -2641,7 +2641,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/26386ced-5f26-4cc8-a0d5-cead091c1422.jpg?im_w=720",
     location: "canada",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2650,7 +2650,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53693912/original/347ab2a7-537a-4c1c-9d22-ae7af0319c17.jpeg?im_w=720",
     name: "Cancona",
     price: 2255,
-    type: "couple",
+    type: "countryside",
     stars: "4.98",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-53693912/original/810a217b-b081-48a0-974d-db0ee77e95c5.jpeg?im_w=720",
@@ -2664,7 +2664,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53693912/original/347ab2a7-537a-4c1c-9d22-ae7af0319c17.jpeg?im_w=720",
     location: "canada",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2673,7 +2673,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/5314255c-ea99-4b29-9a5c-1ae56f3d9f37.jpg?im_w=720",
     name: "Panjali",
     price: 1885,
-    type: "couple",
+    type: "countryside",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/d42c3708-0767-45c2-afec-48f58ae5f37b.jpg?im_w=720",
@@ -2687,7 +2687,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/4062779b-8434-4e07-84f7-32e5d4c37cdb.jpg?im_w=720",
     location: "canada",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2696,7 +2696,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0df3b66e-b1e2-4bca-9c2b-300c28926569.jpg?im_w=720",
     name: "Coladre",
     price: 7895,
-    type: "couple",
+    type: "countryside",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/23052913-099c-4a3a-8f69-dddc2734782c.jpg?im_w=720",
@@ -2718,7 +2718,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-45731930/original/bffdd0b5-271e-4836-8607-57efad2e70bb.jpeg?im_w=720",
     name: "Mandela",
     price: 7890,
-    type: "couple",
+    type: "countryside",
     stars: "New",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/e29175b2-3cd2-4f9a-bb9b-7630317ba2bc.jpg?im_w=720",
@@ -2740,7 +2740,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/79ee6640-f7c6-4775-b18f-eea593565e9d.jpg?im_w=720",
     name: "Orya",
     price: 5680,
-    type: "couple",
+    type: "countryside",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/c92ed58a-2958-4f1b-b6bc-05e7cac92b04.jpg?im_w=720",
@@ -2762,7 +2762,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/0f8822af-f738-431b-a30f-ccc8ff7f31ee.jpg?im_w=720",
     name: "Equpd",
     price: 4780,
-    type: "couple",
+    type: "countryside",
     stars: "5.00",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/0750bacd-1294-4707-8ef5-25f21e5f3759.jpg?im_w=720",
@@ -2784,7 +2784,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/4ab77d63-7116-41c8-957b-921209a1c0b9.jpeg?im_w=720",
     name: "Nilofouer",
     price: 7890,
-    type: "couple",
+    type: "countryside",
     stars: "4.80",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/f532f561-f0f6-4454-a0d9-230be7a66462.jpeg?im_w=720",
@@ -2806,7 +2806,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/0e7d0e69-2edf-427b-90ae-b8245efba32c.jpeg?im_w=720",
     name: "Ora",
     price: 1145,
-    type: "couple",
+    type: "countryside",
     stars: "4.88",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/miso/Hosting-40282903/original/72c66a59-a92f-4579-a1c1-40bf679ce091.jpeg?im_w=720",
@@ -2828,7 +2828,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/29a4d8ad-4ea1-4f6c-bd78-920bd3351e8a.jpg?im_w=720",
     name: "Quazi",
     price: 7450,
-    type: "couple",
+    type: "countryside",
     stars: "4.48",
     carouselPic1:
       "https://a0.muscache.com/im/pictures/276901a4-9087-44d3-94c0-d2065d2a2f8d.jpg?im_w=720",
@@ -2842,7 +2842,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/14e0cf79-c731-46d7-99e9-443303e0914f.jpg?im_w=720",
     location: "australia",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   // Tab 10 i.e arctic
@@ -2867,7 +2867,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/60d4058e-98a8-4f30-ba8a-93b101a31c47.jpg?im_w=720",
     location: "australia",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -2890,7 +2890,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-580103554611229141/original/9e859008-411d-4418-928a-b18a72c34d3d.jpeg?im_w=720",
     location: "australia",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -3067,7 +3067,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-14837629/original/a8f257f8-e977-4288-afee-425aab22f63a.png?im_w=720",
     location: "brazil",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -3090,7 +3090,7 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/60d4058e-98a8-4f30-ba8a-93b101a31c47.jpg?im_w=720",
     location: "brazil",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 
   {
@@ -3113,6 +3113,6 @@ export const listings = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-580103554611229141/original/9e859008-411d-4418-928a-b18a72c34d3d.jpeg?im_w=720",
     location: "brazil",
     pets: false,
-    couple: true,
+    countryside: true,
   },
 ];

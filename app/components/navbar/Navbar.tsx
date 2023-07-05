@@ -1,4 +1,3 @@
-import Categories from "./Categories";
 import Container from "../Container";
 import Logo from "./Logo";
 import Search from "./Search";
@@ -11,7 +10,7 @@ const Navbar = () => {
       <div
         className="
           py-4 
-          border-b-[1px]
+          
         "
       >
       <Container>
@@ -31,7 +30,6 @@ const Navbar = () => {
         </div>
       </Container>
     </div>
-    <Categories />
   </div>
   );
 }

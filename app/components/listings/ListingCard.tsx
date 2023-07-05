@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import HeartButton from "../HeartButton";
+import FavoriteButton from "../FavoriteButton";
 import Button from "../Button";
 import { Listing } from "@/app/types";
 import { AiFillStar } from "react-icons/ai";
@@ -14,7 +14,6 @@ interface ListingCardProps {
   disabled?: boolean;
   actionLabel?: string;
   actionId?: string;
-  currentUser?: null;
 }
 
 const ListingCard: React.FC<ListingCardProps> = ({
@@ -22,7 +21,6 @@ const ListingCard: React.FC<ListingCardProps> = ({
   onAction,
   disabled,
   actionLabel,
-  currentUser,
 }) => {
   return (
     <div className="col-span-1 cursor-pointer group">
@@ -41,6 +39,8 @@ const ListingCard: React.FC<ListingCardProps> = ({
             fill
             className="
               object-cover 
+              w-full 
+              h-full 
               group-hover:scale-110 
               transition
             "
@@ -56,7 +56,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
             right-3
           "
           >
-            <HeartButton listingId={data.id} currentUser={currentUser} />
+            <FavoriteButton />
           </div>
         </div>
         <div className="flex items-center justify-between">

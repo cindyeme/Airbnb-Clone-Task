@@ -1,32 +1,23 @@
-'use client';
+"use client";
 
 import Container from "./components/Container";
-import ListingCard from "./components/listings/ListingCard";
+import Listings from "./components/listings/Listings";
+import Categories from "./components/navbar/Categories";
 import useTab from "./hooks/useTab";
 
 export default function Home() {
-  const { listingsToDisplay }= useTab();
+  const { listingsToDisplay, activeCategory, handleTabChange } = useTab();
+  console.log({ listingsToDisplay, activeCategory }, "<<");
   return (
     <main>
-      <Container>
-        <div
-          className="
-            pt-24
-            grid 
-            grid-cols-1 
-            sm:grid-cols-2 
-            md:grid-cols-3 
-            lg:grid-cols-4
-            xl:grid-cols-5
-            2xl:grid-cols-6
-            gap-8
-          "
-        >
-          {listingsToDisplay.map((listing: any) => (
-            <ListingCard currentUser={null} key={listing.id} data={listing} />
-          ))}
-        </div>
-      </Container>
+      <div className="fixed top-[5rem] w-full bg-white z-10 border-t-[1px]">
+        <Categories active={activeCategory} onChange={handleTabChange} />
+      </div>
+      <section className="pb-20 pt-28">
+        <Container>
+          <Listings listings={listingsToDisplay} />
+        </Container>
+      </section>
     </main>
   );
 }

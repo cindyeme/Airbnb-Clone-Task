@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={font.className}>
         <RouterMounting>
           <Navbar />
-          <div className="pb-20 pt-28">{children}</div>
+          <>{children}</>
           <Footer />
         </RouterMounting>
       </body>

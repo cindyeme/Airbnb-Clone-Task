@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { listings } from "../store/listings";
 import { Listing } from "../types";
 
@@ -9,21 +9,24 @@ const useTab = () => {
     useState<Array<Listing>>(listings);
   const [activeCategory, setActiveCategory] = useState("rooms");
 
-  const handleDisplayCategoryListings = useCallback(
-    (category: string) => {
-      setActiveCategory(category);
+  const handleTabChange = useCallback((category: string) => {
+    setActiveCategory(category);
+  }, []);
 
-      const parsedListings = (listings ?? []).filter(
-        (p) => p.type === activeCategory
-      );
-      setListingsToDisplay(parsedListings);
-    },
-    [activeCategory]
-  );
+  useEffect(() => {
+    if (activeCategory === "rooms") {
+      setListingsToDisplay(listings);
+    } else {
+      const filtered = listings.filter((item) => item.type === activeCategory);
+      setListingsToDisplay(filtered);
+    }
+  }, [activeCategory]);
 
-  console.log({ listingsToDisplay });
-
-  return { listingsToDisplay, activeCategory, handleDisplayCategoryListings };
+  return {
+    listingsToDisplay,
+    activeCategory,
+    handleTabChange,
+  };
 };
 
 export default useTab;

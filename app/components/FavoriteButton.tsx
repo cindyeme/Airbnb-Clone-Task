@@ -3,12 +3,8 @@
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { useCallback, useState } from "react";
 
-interface HeartButtonProps {
-  listingId: string;
-  currentUser?: null;
-}
 
-const HeartButton: React.FC<HeartButtonProps> = () => {
+const FavoriteButton = () => {
   const [favorite, setFavorite] = useState(false);
 
   const toggleFavorite = useCallback(() => setFavorite((prev) => !prev), []);
@@ -40,4 +36,4 @@ const HeartButton: React.FC<HeartButtonProps> = () => {
   );
 };
 
-export default HeartButton;
+export default FavoriteButton;
